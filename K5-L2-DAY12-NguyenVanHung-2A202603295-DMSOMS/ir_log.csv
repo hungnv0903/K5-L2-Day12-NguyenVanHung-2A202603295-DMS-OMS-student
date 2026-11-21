@@ -1,0 +1,7 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Áo người lớn và nệm ghế xám có độ sáng tương đương, mất tương phản màu sắc so với ảnh RGB",person,"Vẽ box person khó xác định mép cơ thể với tựa ghế, giữ seatbelt=not_worn"
+S03_ir,IR_sim,"Balo và túi xách trên ghế sau bị mất hoa văn, màu sắc vải bị bết xám",object.type,"Khó phân biệt chất liệu túi, phải dựa vào hình dáng quai xách để chọn type=bag"
+S05_ir,IR_sim,"Không còn nhìn thấy màu sắc đồ vật dưới chân ghế sau do ánh sáng mô phỏng không đều",object,"Phải tăng Contrast/Brightness trong CVAT để nhận diện vật thể"
+D01,real_IR,"Đèn LED hồng ngoại 940nm chiếu nghiêng làm hốc mắt trái rơi vào bóng tối",left_eye_state,"Không thấy rõ khe mí mắt trái, chọn eye_left=unknown và bật cờ occluded"
+D03,real_IR,"Đốm phản xạ LED sáng chói trên tròng kính cận che khuất con ngươi và viền mí mắt",right_eye_state,"Ghi eye_right=unknown thay vì đoán closed; bật cờ occluded cho các điểm mốc mắt phải"
+D05,real_IR,"Ảnh NIR thể hiện rõ kết cấu bề mặt vải và tay lái trong bóng tối cabin",hand.on_wheel,"Xác định rõ bàn tay đang nắm vô lăng, gán on_wheel=yes một cách tự tin"

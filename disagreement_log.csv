@@ -1,0 +1,36 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+D01.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+D01.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+D01.png,face13,right_eye_outer.outside,khác cờ,0,1,mine,4.6,Diem van nam trong vung dau uoc luong duoc nen dung occluded thay vi outside
+D01.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+D02.png,face13,right_eye_outer.outside,khác cờ,1,0,mine,4.6,Diem van nam trong vung dau uoc luong duoc nen dung occluded thay vi outside
+D02.png,face13,mouth_right.outside,khác cờ,1,0,mine,4.6,Diem van nam trong vung dau uoc luong duoc nen dung occluded thay vi outside
+D03.png,face13,lip_lower.occluded,khác cờ,1,0,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+D04.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.2,Peer xoa box object vi guideline DMS khong dung nhan object
+D04.png,face13,left_eye_outer.occluded,khác cờ,0,1,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+D04.png,face13,left_eye_outer.outside,khác cờ,1,0,mine,4.6,Diem van nam trong vung dau uoc luong duoc nen dung occluded thay vi outside
+D04.png,face13,left_eye_inner.occluded,khác cờ,0,1,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+D04.png,face13,left_eye_inner.outside,khác cờ,1,0,mine,4.6,Diem van nam trong vung dau uoc luong duoc nen dung occluded thay vi outside
+D04.png,face13,left_eye_upper.occluded,khác cờ,0,1,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+D04.png,face13,left_eye_upper.outside,khác cờ,1,0,mine,4.6,Diem van nam trong vung dau uoc luong duoc nen dung occluded thay vi outside
+D04.png,face13,left_eye_lower.occluded,khác cờ,0,1,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+D04.png,face13,left_eye_lower.outside,khác cờ,1,0,mine,4.6,Diem van nam trong vung dau uoc luong duoc nen dung occluded thay vi outside
+D05.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+D05.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+D06.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.2,Peer xoa box object vi guideline DMS khong dung nhan object
+D06.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+D06.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+D06.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Giu co occluded vi diem moc bi dom phan xa LED/gong kinh che khuat
+S01_ir.png,child_seat,occupied,khác giá trị (IoU=0.98),unknown,no,ambiguous,4.8,"Thong nhat chon no khi thay ro long ghe trong, unknown khi bi che"
+S01_rgb.png,child_seat,occupied,khác giá trị (IoU=0.98),unknown,no,ambiguous,4.8,"Thong nhat chon no khi thay ro long ghe trong, unknown khi bi che"
+S02_ir.png,child_seat,occupied,khác giá trị (IoU=0.98),unknown,yes,mine,4.1,Peer sua occupied tu yes sang unknown vi schema chi co no/unknown
+S02_rgb.png,person,seatbelt,khác giá trị (IoU=0.97),unknown,not_worn,peer,4.7,Cap nhat not_worn vi quan sat ro khong co day deo
+S02_rgb.png,child_seat,occupied,khác giá trị (IoU=0.98),unknown,yes,mine,4.1,Peer sua occupied tu yes sang unknown vi schema chi co no/unknown
+S04_ir.png,person,seatbelt,khác giá trị (IoU=0.99),unknown,not_worn,peer,4.7,Cap nhat not_worn vi quan sat ro khong co day deo
+S04_rgb.png,person,seatbelt,khác giá trị (IoU=0.99),unknown,not_worn,peer,4.7,Cap nhat not_worn vi quan sat ro khong co day deo
+S05_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2,Giu box object cho do vat tren ghe theo quy dinh OMS
+S07_ir.png,child_seat,occupied,khác giá trị (IoU=0.95),unknown,no,ambiguous,4.8,"Thong nhat chon no khi thay ro long ghe trong, unknown khi bi che"
+S07_rgb.png,child_seat,occupied,khác giá trị (IoU=0.93),unknown,no,ambiguous,4.8,"Thong nhat chon no khi thay ro long ghe trong, unknown khi bi che"
+S08_ir.png,child_seat,occupied,khác giá trị (IoU=0.99),unknown,no,ambiguous,4.8,"Thong nhat chon no khi thay ro long ghe trong, unknown khi bi che"
+S08_rgb.png,child_seat,occupied,khác giá trị (IoU=0.97),unknown,no,ambiguous,4.8,"Thong nhat chon no khi thay ro long ghe trong, unknown khi bi che"
